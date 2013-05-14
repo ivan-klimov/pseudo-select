@@ -1,5 +1,3 @@
-(function() {
-
 
 function Select(opt) {
 	var select = document.getElementById(opt.selectId),
@@ -152,33 +150,5 @@ function Select(opt) {
 
 }
 
-
-
-var select = new Select({
-	selectId: 'select',
-	currentClass: 'select__current',
-	optionsClass: 'select__items',
-	optionClass: 'select__item',
-	oncomplete: function() {
-		var e = event || window.event,
-				target = e.target || e.srcElement;
-
-		alert(target.innerHTML);
-	},
-	container: document
-});
-
-
-var select2 = new Select({
-	selectId: 'select2',
-	currentClass: 'select__current',
-	optionsClass: 'select__items',
-	optionClass: 'select__item',
-	container: document
-});
-
-
-
-})();
 
 
