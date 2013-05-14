@@ -1,0 +1,21 @@
+html, body, div, span, p, i, b, img, ul, ol, li, sub, sup, a, table, td, tr, form, input, label, button, textarea, h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+
+body{font-family: Arial, Verdana, Tahoma; font-size: 12px; color:#333;}
+p{margin:0 0 18px 0; line-height: 16px;}
+ul{list-style-type: none;}
+
+.wrapper{margin:0 auto; width:800px; padding:50px 0 0 0;}
+.select{float:left; margin:0 30px 0 0;}
+.select__title{font-weight: 100; font-size: 14px; margin:0 0 20px 0;}
+.select__current{width:118px; height:30px; line-height: 30px; padding:0 20px 0 12px; border:1px solid #999; cursor:default; background: url('pseudo_select_bg.png') 122px center no-repeat;}
+.select__current:hover{border-color: #666; background-color: #EFF1F7;}
+.select__items{position:absolute; display:none; width:150px; height: 142px; overflow-y:auto; border:1px solid #999; margin:-1px 0 0 0; background: #fff;}
+.select__item{height:30px; line-height: 30px; padding:0 20px 0 12px;}
+.select__item:hover{background: #EFF1F7; cursor: default;}
+.select_show .select__items{display:block; z-index:1;}
+
+
+
+
+
+
