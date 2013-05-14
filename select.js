@@ -31,9 +31,12 @@ function Select(opt) {
 
 
 	function toggle(trg, select) {
-		if (hasClass(select, 'select_show')) return;
-		close();
-		open(trg, select);
+		if (hasClass(select, 'select_show')) {
+			close();
+		} else {
+			close();
+			open(trg, select);
+		}
 	}
 
 
